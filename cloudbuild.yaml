@@ -6,7 +6,7 @@ steps:
     args: ['push', 'gcr.io/$PROJECT_ID/app:latest']
 
 images:
-  - gcr.io/$PROJECT_ID/app:
+  - gcr.io/$PROJECT_ID/app:latest
 
 options:
   logging: CLOUD_LOGGING_ONLY
